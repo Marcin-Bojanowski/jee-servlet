@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Servlet31</title>
+</head>
+<body>
+<form action="/kursy" method="POST">
+    <label>
+        Podaj kwotę:<br>
+        <input type="number" min="0.00" step="0.01" name="amount"><br>
+    </label>
+    <label>
+        Przelicz na:<br>
+        <input type="radio" name="option" value="eur_usd" checked>EUR->USD<br>
+        <input type="radio" name="option" value="usd_eur">USD->EUR<br>
+        <input type="radio" name="option" value="eur_pln">EUR->PLN<br>
+        <input type="radio" name="option" value="pln_eur">PLN->EUR<br>
+        <input type="radio" name="option" value="usd_pln">USD->PLN<br>
+        <input type="radio" name="option" value="pln_usd">PLN->USD<br>
+    </label>
+    <input type="submit" name="Przelicz">
+
+</form>
+</body>
+</html>
